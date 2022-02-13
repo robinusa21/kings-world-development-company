@@ -1,0 +1,739 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js
+https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.js
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;;
+}
+/*------------- Navber------------------------*/
+  
+.nav-link {
+    font-size: 18px;
+    margin: 3px;
+    color: rgb(255, 255, 255)!important;
+    font-weight: 700;
+    text-transform: none;
+    font-weight: 300px;
+}
+.navbar nav {
+    text-align: right;
+    margin-right: 30px;
+     
+}
+.navbar .navbar-toggler {
+    padding-right: 20px;
+    outline: none!important;
+    border: none!important;
+}
+.nav-link:hover {
+    font-weight: 600;
+    border-bottom: 2px solidrgb(201, 116, 116);
+}
+.nav-item.\31 {
+    color: white;
+    background: #e12323;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 15px;
+  }
+  .nav-item.\32 {
+    color: wheat;
+    background: green;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 15px;
+  }
+.src {
+    width: 150px;
+    height: 150px;
+    margin: -10px -10px;
+  }
+
+
+@media only screen and (max-width: 768px) {
+    .nav-link:hover {
+        border-bottom: none!important;
+    }
+    }
+/*------------- Navber------End------------------*/
+
+/*------------- Front IMG------------------------*/
+.fornt-img img{
+    width: 100%;
+    height: 100vh;
+    padding: 10px 10px;
+  }
+ /*------------- Front IMG -------End-----------------*/
+
+/*------------- header 1------------------------*/
+.header-1 {
+    background: #ffffff;
+    background-color: aliceblue;
+    
+    
+}
+.header {
+    color: rgb(49, 130, 206);
+    text-align: center;
+    margin: 50px;
+    padding: 50px;
+}
+.typed {
+
+    color: #000;
+}
+/*------------- header 1------END------------------*/
+/*------------- header 2------------------------*/
+.header-2 {
+    background: #ffffff;
+    background-color: aliceblue;
+} 
+.header-2 h1 {
+    text-align: center;
+    margin: 50px;
+    padding: 50px;
+    font-size: 900;
+    font-style: initial;
+    font-family: initial;
+}
+/*------------- header 2------END------------------*/
+/*------------- Services------------------------*/
+.section .services {
+    background: #fff;
+    font-family: 'Ubuntu',sans-serif;
+}
+.services {
+    display: block;
+    position: relative;
+    padding: 0;
+}
+.services .container {
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container .services-title {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.container .services-box {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-top: -15px;
+}
+.title {
+    margin-left: 15px;
+    position: relative;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 40px;
+    text-align: center;
+    top: 26px;
+}
+.services-title h2 span {
+    color: #3c44a9;
+}
+.services-title h2 {
+    margin-top: -10px;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 48px;
+    font-family: 'Ubuntu',sans-serif;
+
+}
+.services-box .box {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    max-width: 33.333333%;
+}
+.services-box .ser-box {
+    margin-top: 75px;
+    padding-bottom: 30px;
+    padding: 0 60px;
+    min-height: 198px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: all .4s ease-in-out;
+    box-shadow: 0 0 25px 0 rgba(20,27,202,.17);
+}
+.ser-box .icon {
+    margin-bottom: 0;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.ser-box h4 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1;
+    color: #3c44a9;
+    margin-top: -10px;
+    font-family:'Ubuntu',sans-serif;
+
+}
+.ser-box p {
+    color: #61648e;
+    line-height: 24px;
+    margin-top: 20px;
+    font-family: 'Ubuntu',sans-serif;
+}
+.ser-box:hover {
+    box-shadow: 0 0 25px 0 rgba(20,27,202,.05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #fb0054 0%, #f55b2a 100%);
+}
+.ser-box:hover h4,
+.ser-box:hover p {
+    color: #fff;
+}
+.services-box .box:nth-child(1) .ser-box:hover {
+    background-image: linear-gradient(-45deg, #34b5bf 0%, #210c59 100%);
+}
+.services-box .box:nth-child(3) .ser-box:hover {
+    background-image: linear-gradient(-45deg, #3615e7 0%, #44a2f6 100%);
+}
+.services-box .box:nth-child(4) .ser-box:hover {
+    background-image: linear-gradient(-45deg, #fc6a0e 0%, #fdb642 100%);
+}
+.services-box .box:nth-child(5) .ser-box:hover {
+    background-image: linear-gradient(-45deg, #8d40fb 0%, #5a57fb 100%);
+}
+.services-box .box:nth-child(6) .ser-box:hover {
+    background-image: linear-gradient(-45deg, #27b88d 0%, #22dd73 100%);
+}
+.services-box .box:nth-child(7) .ser-box:hover {
+    background-image: linear-gradient(-45deg, #3615e7 0%, #44a2f6 100%);
+}
+.services-box .box:nth-child(8) .ser-box:hover {
+    background-image: linear-gradient(-45deg, #34b5bf 0%, #210c59 100%);
+}
+
+/*------------- Services------Responsive------------------*/
+@media(min-width: 768px)
+{
+    .services-box .box
+    {
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+    }
+}
+
+
+
+
+
+@media(min-width: 600px)
+{
+    .services-box .box
+    {
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+    }
+}
+
+
+
+@media(min-width: 992px)
+{
+    .services-box .box
+    {
+        flex: 0 0 33.333333% !important;
+        max-width: 33.333333% !important;
+    }
+}
+
+
+
+@media(min-width: 414px)
+{
+    .services-box .box
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+
+@media(min-width: 370px)
+{
+    .services-box .box
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+
+@media(min-width: 320px)
+{
+    .services-box .box
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+
+/*------------- Services------END------------------*/
+/*------------- Teem Skill------------------*/
+.skill-section {
+    width: 100%;
+    height: auto;
+    padding: 80px 13px;
+    background-color: rgba(243, 237, 237, 0.8);
+    
+}
+.container {
+    margin: 0px;
+    padding: 0px;
+}
+.skill-title{
+    width: 100%;
+    margin-bottom: 70px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+  }
+.skill-title h2 h2 {
+    color: rgb(0, 0, 0);
+    
+  }
+.skill-title h2 {
+    margin-top: -10px;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 48px;
+    font-family: 'Ubuntu',sans-serif;
+
+}
+.skill-title h3 {
+      color: #000000;
+      font-family: 'Ubuntu',sans-serif;
+  }
+#skill {
+    color: #e74d06;
+  }
+.skill-main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 20px;
+}
+.skill-main .skill-bar .info 
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    
+}
+.skill-bar .info .percent {
+    font-weight: bold;
+}
+.skill-bar .bar {
+    width: 100%;
+    height: 10px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.199);
+    border-radius: 25px;
+    margin-top: 5px;
+}
+.skill-bar .bar span {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background-color: #e74d06;
+    border-radius: 25px;
+}
+.skill-bar p {
+    margin-top: 5px;
+    margin-bottom: .2rem;
+}
+.skill-bar .bar .html {
+    width: 90%;
+    animation: html 3s;
+}
+@keyframes html {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 90%;
+    }
+}
+.skill-bar .bar .css {
+    width: 85%;
+    animation: css 3s;
+}
+@keyframes css {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 85%;
+    }
+}
+.skill-bar .bar .bootstrap {
+    width: 80%;
+    animation: bootstrap 3s;
+}
+@keyframes bootstrap {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 80%;
+    }
+}
+.skill-bar .bar .ja {
+    width: 75%;
+    animation: ja 3s;
+}
+@keyframes ja {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 75%;
+    }
+}
+.skill-bar .bar .design {
+    width: 85%;
+    animation: design 3s;
+}
+@keyframes design {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 85%;
+    }
+}
+.skill-bar .bar .psd {
+    width: 85%;
+    animation: psd 3s;
+}
+@keyframes psd {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 85%;
+    }
+}
+.skill-bar .bar .php {
+    width: 70%;
+    animation: php 3s;
+}
+@keyframes php {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 70%;
+    }
+}
+.skill-bar .bar .seo {
+    width: 95%;
+    animation: seo 3s;
+}
+@keyframes seo {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 95%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------- Teem Skill- APP Development-----------------*/
+.skill-section {
+    width: 100%;
+    height: auto;
+    padding: 80px 13px;
+    background-color: rgba(243, 237, 237, 0.8);
+    
+}
+.container {
+    margin: 0px;
+    padding: 0px;
+}
+.skill-title{
+    width: 100%;
+    margin-bottom: 70px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+  }
+.skill-title h2 h2 {
+    color: rgb(0, 0, 0);
+    
+  }
+.skill-title h2 {
+    margin-top: -10px;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 48px;
+    font-family: 'Ubuntu',sans-serif;
+
+}
+.skill-title h3 {
+      color: #000000;
+      font-family: 'Ubuntu',sans-serif;
+  }
+#skill {
+    color: #e74d06;
+  }
+.skill-main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 20px;
+}
+.skill-main .skill-bar .info 
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    
+}
+.skill-bar .info .percent {
+    font-weight: bold;
+}
+.skill-bar .bar-1 {
+    width: 100%;
+    height: 10px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.199);
+    border-radius: 25px;
+    margin-top: 5px;
+}
+.skill-bar .bar-1 span {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background-color: #1f1cdb;
+    border-radius: 25px;
+}
+.skill-bar p {
+    margin-top: 5px;
+    margin-bottom: .2rem;
+}
+.skill-bar .bar-1 .android {
+    width: 90%;
+    animation: android 3s;
+}
+@keyframes android {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 90%;
+    }
+}
+.skill-bar .bar-1 .java {
+    width: 85%;
+    animation: java 3s;
+}
+@keyframes java {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 85%;
+    }
+}
+.skill-bar .bar-1 .oop {
+    width: 80%;
+    animation: oop 3s;
+}
+@keyframes oop {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 80%;
+    }
+}
+.skill-bar .bar-1 .git {
+    width: 75%;
+    animation: git 3s;
+}
+@keyframes git {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 75%;
+    }
+}
+.skill-bar .bar-1 .app {
+    width: 85%;
+    animation: design 3s;
+}
+@keyframes app {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 85%;
+    }
+}
+.skill-bar .bar-1 .mvp {
+    width: 70%;
+    animation: mvp 3s;
+}
+@keyframes mvp {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 70%;
+    }
+}
+.skill-bar .bar-1 .sqlite {
+    width: 82%;
+    animation: sqlite 3s;
+}
+@keyframes sqlite {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 82%;
+    }
+}
+.skill-bar .bar-1 .aso {
+    width: 95%;
+    animation: aso 3s;
+}
+@keyframes aso {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 95%;
+    }
+}
+/*------------- Teem Skill- APP Development----END-------------*/
+
+/*------------- team cart- Web development----------------------*/
+.section-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    width: 100%;
+    background: radial-gradient(#777, #222);
+
+}
+.card {
+    position: relative;
+    width: 340px;
+    height: 450px;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+}
+.card .circle {
+    position: absolute;
+    top: -190px;
+    left: 50%;
+    width: 500px;
+    height: 500px;
+    transform: translateX(-50%);
+    clip-path: circle();
+}
+.card .circle::before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 16px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 0 20px rgba(225,0,0,0.5);
+    border-radius: 50px;
+    z-index: 2;
+    pointer-events: none;
+}
+.circle .imgBox {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 340px;
+    height: 310px;
+}
+.imgBox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+}
+.imgBox .img:hover {
+    transform: scale(1.2);
+}
+.card .content {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 140px;
+    padding: 20px 30px;
+    
+}
+.content img .linked {
+    padding: 2px 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------- team cart- Web development---END-------------*/
